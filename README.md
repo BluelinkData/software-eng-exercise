@@ -38,11 +38,11 @@ Remove the `raise(NotImplementedError)` and run `make test`. This makes two test
 
 Now, let’s implement `upload_to_mobilecommons()` so the tests pass!
 
-You can refer to [ActBlue’s webhook documentation](https://secure.actblue.com/docs/webhooks) and the sample incoming donation payload used in tests `actblue/sample_donation.json`. See Appendix 1 below for the relevant Mobile Commons API endpoint documentation (unfortunately their documentation is not publicly accessible :-/).
+You can refer to [ActBlue’s webhook documentation](https://secure.actblue.com/docs/custom_integrations) and the sample incoming donation payload used in tests `actblue/sample_donation.json`. See Appendix 1 below for the relevant Mobile Commons API endpoint documentation (unfortunately their documentation is not publicly accessible :-/).
 
 ## Step 2: Send us your `actblue.py`
 
-The email you received should have a link like https://app2.greenhouse.io/tests/UNIQUE_TOKEN to submit your actblue.py. Thank you!
+Please email the file `actblue.py` to `homework@bluelink.org`
 
 (Next steps of the interview process may involve a screen-share coding interview building on top of your work in this repo.)
 
