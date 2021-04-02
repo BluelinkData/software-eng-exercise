@@ -1,16 +1,14 @@
 # Software Engineer: Coding Exercise
 
-Woohoo, let’s work together to engage with new donors over text message to thank them and get them involved in the campaign.
-
 This short exercise should take about 30 minutes.
 
 ## Background
 
-Let's say we're helping a campaign better engage their donors.
+Let's say we're helping a campaign better engage their donors by subscribing them to text message updates.
 
 The campaign has lots of online donation forms on the ActBlue platform. All have SMS opt-in language (the “By providing your cell phone number...” disclaimer at the bottom), so as soon as somebody makes a donation, if they’ve supplied their cell phone number, we can subscribe them to a text message list and send them a "welcome" text. We use a platform called Mobile Commons to send these texts and manage the subscribers list. We want to send this text as soon as possible after the person has donated.
 
-ActBlue offers webhook functionality, so we can set up an endpoint that ActBlue will hit whenever we get a new donation. Mobile Commons offers an API which we can POST to to subscribe a phone number. So the goal here is to set up a webhook that will immediately subscribe new donors to our text message list.
+ActBlue offers webhook functionality, so we can set up an endpoint that ActBlue will hit whenever we get a new donation. Mobile Commons offers an API which we can POST to to subscribe a phone number. So the goal here is to set up a webhook that will immediately subscribe new donors to the text message list.
 
 ## Step 0: Set up Docker and run tests
 
