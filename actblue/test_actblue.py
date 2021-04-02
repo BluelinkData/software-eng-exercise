@@ -157,7 +157,7 @@ def test_mobile_commons_profile_upload(client, sample_donation, mock_actblue_web
             "postal_code": "94801",
             "first_name": "Mary",
             "last_name": "Smith",
-            "street1": "20 Belvedere Ave.",
+            "street1": "123 Main St",
             "city": "Richmond",
             "state": "CA",
             "country": "US",
